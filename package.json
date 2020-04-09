@@ -1,0 +1,12 @@
+{
+  "name": "leet-code",
+  "private": true,
+  "repository": "git@github.com:iZhen/leet-code.git",
+  "author": "Zhen <i@thezhen.me>",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7"
+  }
+}
