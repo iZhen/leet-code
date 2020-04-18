@@ -6,7 +6,7 @@ function updateMatrix(matrix) {
   const yLen = matrix.length;
   const xLen = matrix[0].length;
   const result = new Array(yLen);
-  let loop = []
+  const loop = [];
 
   for (let y = 0; y < yLen; y += 1) {
     result[y] = new Array(xLen);
@@ -35,7 +35,7 @@ function updateMatrix(matrix) {
         result[y][x] = originVal + 1;
         loop.push([y, x]);
       }
-    })
+    });
   }
 
   return result;
